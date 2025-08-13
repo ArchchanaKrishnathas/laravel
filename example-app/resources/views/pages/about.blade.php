@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,4 +11,13 @@
         <h1>  About Page </h1>
         <p> My name is {{$my}} </p>
 </body>
-</html>
+</html> --}}
+
+@extends ('layout.index')
+
+@section('content')
+@section('title','about')
+
+    <h1>  About Page </h1>
+
+@endsection

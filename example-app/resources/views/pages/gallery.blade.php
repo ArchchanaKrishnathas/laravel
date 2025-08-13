@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,4 +9,12 @@
 <body>
     <h1>  Gallery Page </h1>
 </body>
-</html>
+</html> --}}
+
+@extends('layout.index')
+
+@section('content')
+@section('title','gallery')
+    <h1>  Gallery Page </h1>
+
+@endsection

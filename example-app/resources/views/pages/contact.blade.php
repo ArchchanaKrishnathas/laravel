@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,4 +12,12 @@
 
     <p> Contact number: {{$pnNumber}} </p>
 </body>
-</html>
+</html> --}}
+
+@extends ('layout.index')
+
+@section('content')
+@section('title','contact')
+    <h1>  Contact Page </h1>
+    
+@endsection
