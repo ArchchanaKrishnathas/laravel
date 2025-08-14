@@ -78,13 +78,13 @@ button {
         <h1>Login</h1>
         <h3>Enter your login credentials</h3>
 
-        <form action="/post-login?" method="post">
+        <form action="/post-login" method="post">
             @csrf
             <label for="first">
-                Username:
+                Email:
             </label>
-            <input type="text" id="first" name="first"
-                placeholder="Enter your Username" required>
+            <input type="email" id="email" name="email"
+                placeholder="Enter your Email" required>
 
             <label for="password">
                 Password:

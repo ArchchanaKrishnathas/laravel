@@ -64,7 +64,7 @@
 <body>
     <div class="main">
         <h2>Registration Form</h2>
-        <form action="/post-register?" method="post">
+        <form action="/post-register" method="post">
             @csrf
             <label for="name">Full Name:</label>
             <input type="text" id="name" name="name" required />
